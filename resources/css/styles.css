@@ -1,0 +1,176 @@
+body{
+    background-color: #ffdcea;
+}
+.navbar{
+
+    background-color: #e2c7f1;
+}
+footer{
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #ffc4da;
+    color: white;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+
+
+}
+.imgGroup{
+  width: 30rem;
+  height: 30rem;
+ 
+}
+
+.bi{
+    margin-left: 20px;
+}
+.nav-link{
+    color: rgba(141, 0, 82, 0.781);
+}
+.colortexto{
+    color: rgba(141, 0, 82, 0.781);
+}
+
+.texto-footer{
+    color: #8d0052c7;
+}
+.boton-personalizado{
+   
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 20px;
+        color:#000000;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:40px;
+        padding-right:40px;
+        background-color:   #e2c7f1;
+        border-color:  rgba(141, 0, 82, 0.781);
+        border-width: 1.5px;
+        border-style: solid;
+        border-radius:35px;
+        
+}
+.loginRegisterBtn{
+
+  
+  text-decoration:none;
+  font-weight: 400;
+  font-size: 15px;
+  color:#000000;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:   #e2c7f1;
+  border-color:  #8d0052c7;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius:35px;
+ 
+}
+.accedeMuro{
+
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+
+.imgprincipal{
+    display: flex;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagenpeople{
+
+    padding: 0%;
+    width: 33rem;
+    height: 33rem;
+   
+    
+    
+}
+
+.cardwall{
+
+  margin-top: 40px;
+}
+
+.flash {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+.genteAbout{
+
+  
+}
+@media only screen and (max-width: 600px) {
+  .flash{
+    top: 60px;
+    left: 10px;
+  }
+}
+
+#popcorn {
+    display: inline-block;
+    width: 134px;
+    height: 120px;
+    background-image: url('https://popper.js.org/images/popcorn-box.svg');
+  }
+  
+  #tooltip {
+    display: inline-block;
+    background: #ffffff;
+    color: #643045;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  #arrow,
+  #arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+  }
+  
+  #arrow {
+    visibility: hidden;
+  }
+  
+  #arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+  }
+  
+  #tooltip[data-popper-placement^='top'] > #arrow {
+    bottom: -4px;
+  }
+  
+  #tooltip[data-popper-placement^='bottom'] > #arrow {
+    top: -4px;
+  }
+  
+  #tooltip[data-popper-placement^='left'] > #arrow {
+    right: -4px;
+  }
+  
+  #tooltip[data-popper-placement^='right'] > #arrow {
+    left: -4px;
+  }
+  
+  
+
